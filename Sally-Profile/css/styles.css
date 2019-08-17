@@ -3,8 +3,8 @@ body{
   font-family: "Avenir"
 }
 
-.profile{
-  float: left;
+.profile-top{
+  display: flex;
 }
 
 img{
@@ -14,9 +14,6 @@ img{
     margin:10px;
   }
 
-.clear{
-  clear: left;
-}
 
 .right{
   background-color: #36E3C2;
