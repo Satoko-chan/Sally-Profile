@@ -1,52 +1,52 @@
-body{
-  padding:3% 10%;
-  font-family: "Avenir"
+body {
+  padding: 3% 10%;
+  font-family: "Avenir";
 }
 
-.profile-top{
+img {
+  width: 250px;
+  height: 250px;
+  display: cover;
+  margin: 10px;
+}
+
+h2,
+h3 {
+  color: #36e3c2;
+}
+
+.profile-top {
   display: flex;
 }
 
-img{
-    width: 250px;
-    height:250px;
-    display: cover;
-    margin:10px;
-  }
-
-
-.right{
-  background-color: #36E3C2;
+.right {
+  background-color: #36e3c2;
   color: white;
   padding: 20px;
   width: 60%;
-  margin:10px;
+  margin: 10px;
 }
 
-.profile h3{
-  color: white
+.profile h3 {
+  color: white;
 }
 
-.container{
+.container {
   padding-top: 30px;
 }
 
-h2, h3{
-  color: #36E3C2;
+.experience p {
+  color: #36e3c2;
 }
 
-.experience p{
-  color: #36E3C2;
+.border {
+  border: solid 4px #36e3c2;
 }
 
-.border{
-  border: solid 4px #36E3C2;
-}
-
-.experience{
+.experience {
   padding-top: 25px;
 }
 
-.non-bullet{
+.non-bullet {
   list-style-type: none;
 }
